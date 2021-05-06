@@ -4,7 +4,6 @@ import re
 def main():
     with open(sys.argv[1], 'r') as f:
         stat = {}
-
         str_a = ' '
         while str_a:
             str_a = f.readline()
